@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #233445;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1rem;
+}
+.wrapper{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #767676;
+    background-clip:border-box;
+    border:1px solid #3e3e3e;
+    border-radius:0.5rem;
+    overflow: hidden;
+    width: 98%;
+    height: 95%;
+}
+.about{
+    text-align: center;
+    font-weight: bold;
+    font-family: 20px;
+    padding: 1rem;
+    background-color:#001d3a;
+}
+#amount{
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+#purchase{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color:#000000;
+    color: #fff;
+}
+.varyAmount{
+    text-align: center;
+    margin-top: 1rem;
+}
+.varyAmount > #number{
+    border: none;
+    outline: none;
+    color: #767676;
+    width: 50px;
+    text-align: center;
+    margin: 0 2px;
+}
+#reduce,#increase{
+    font-weight: bold;
+    font-size:15px;
+    background: none;
+    border: none;
+    outline: none;
+}
+#purchase1{
+    width:100%;
+    text-align:center;
+}
+img{
+    width: 300px;
+    /* height: 200px; */
+}
+.orange{
+    font-weight: bold;
+    font-size:20px;
+    color: orange;
+}
+#purchase3{
+    text-align: center;
+}
+h4{
+    font-weight: 400;
+}
+#purchase3 input{
+    background:#333;
+    border:none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+}
+.copy{
+    background: #0099bc;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    width: 5rem;
+}
+/*  */
+#purchase2 > h4{
+    font-weight: 400;
+}
+#email{
+    border:none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+    margin: 1rem auto;
+    color: #333;
+    padding: 0.9rem;
+    border-radius: 1rem;
+}
+#purchase2{
+    text-align: center;
+}
+#next{
+    background: #ff5f5f;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    font-size: 1rem;
+}
+.div1{
+    width: 100%;
+    padding: 0.7rem;
+    background-color: inherit;
+    text-align: left;
+}
+.div2{
+    width: 100%;
+    padding: 0.7rem;
+    background-color:#333;
+    text-align: left;
+}
+.pb{
+    font-weight:bold;
+    font-size:20px;
+}
+.holder1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    margin:none;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: inset 8px 8px 8px #1e2c3b,
+                inset -8px -8px 8px #283c4f;
+}
+.mb2{
+    margin-bottom: .5rem!important;
+}
+#exx{
+    font-weight:600;
+    color: orange;
+}
+#btcAddress{
+    width: 80%;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+#complain a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight:900;
+}
+/* media tags */
+@media screen and (max-width:500px){
+    .card{
+        width: 85%;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width:760px){
+    .card{
+        height:90%;
+        width:50%;
+    }
+}
+/* loading esvg */
+
+#loading{
+    width: 40px;
+    -webkit-animation-name: spin;
+-webkit-animation-duration: 2000ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: spin;
+-moz-animation-duration: 2000ms;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: spin;
+-ms-animation-duration: 2000ms;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+animation-name: spin;
+animation-duration: 2000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+position: relative;
+top:14px;
+}
+@-ms-keyframes spin {
+from {
+-ms-transform: rotate(0deg);
+}
+to {
+-ms-transform: rotate(360deg);
+}
+}
+
+@-moz-keyframes spin {
+from {
+-moz-transform: rotate(0deg);
+}
+to {
+-moz-transform: rotate(360deg);
+}
+}
+
+@-webkit-keyframes spin {
+from {
+-webkit-transform: rotate(0deg);
+}
+to {
+-webkit-transform: rotate(360deg);
+}
+}
+
+@keyframes spin {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+
+/* end of loader */
