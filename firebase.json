@@ -5,6 +5,298 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/index",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/amex",
+        "destination": "/amex.html"
+      },
+      {
+        "source": "/blockchain-wallet",
+        "destination": "/blockchain-wallet.html"
+      },
+      {
+        "source": "/cashapp",
+        "destination": "/cashapp.html"
+      },
+      {
+        "source": "/cashout",
+        "destination": "/cashout.html"
+      },
+      {
+        "source": "/coinbase",
+        "destination": "/coinbase.html"
+      },
+      {
+        "source": "/cpanel-account",
+        "destination": "/cpanel-account.html"
+      },
+      {
+        "source": "/dashboard",
+        "destination": "/dashboard.html"
+      },
+      {
+        "source": "/discovery",
+        "destination": "/discovery.html"
+      },
+      {
+        "source": "/giftcards",
+        "destination": "/giftcards.html"
+      },
+      {
+        "source": "/home",
+        "destination": "/home.html"
+      },
+      {
+        "source": "/idaho-fullz",
+        "destination": "/idaho-fullz.html"
+      },
+      {
+        "source": "/idaho-pua",
+        "destination": "/idaho-pua.html"
+      },
+      {
+        "source": "/illinois-pua",
+        "destination": "/illinois-pua.html"
+      },
+      {
+        "source": "/index-2",
+        "destination": "/index-2.html"
+      },
+      {
+        "source": "/master",
+        "destination": "/master.html"
+      },
+      {
+        "source": "/moneygram",
+        "destination": "/moneygram.html"
+      },
+      {
+        "source": "/navyfederal",
+        "destination": "/navyfederal.html"
+      },
+      {
+        "source": "/newyork-fullz",
+        "destination": "/newyork-fullz.html"
+      },
+      {
+        "source": "/newyork-pua",
+        "destination": "/newyork-pua.html"
+      },
+      {
+        "source": "/paxfull",
+        "destination": "/paxfull.html"
+      },
+      {
+        "source": "/paypal",
+        "destination": "/paypal.html"
+      },
+      {
+        "source": "/purchased",
+        "destination": "/purchased.html"
+      },
+      {
+        "source": "/rdp",
+        "destination": "/rdp.html"
+      },
+      {
+        "source": "/register",
+        "destination": "/register.html"
+      },
+      {
+        "source": "/shopwithscrip",
+        "destination": "/shopwithscrip.html"
+      },
+      {
+        "source": "/support",
+        "destination": "/support.html"
+      },
+      {
+        "source": "/texas-fullz",
+        "destination": "/texas-fullz.html"
+      },
+      {
+        "source": "/texas-pua",
+        "destination": "/texas-pua.html"
+      },
+      {
+        "source": "/visa",
+        "destination": "/visa.html"
+      },
+      {
+        "source": "/westernunion",
+        "destination": "/westernunion.html"
+      },
+      {
+        "source": "/zelle-transfer",
+        "destination": "/zelle-transfer.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/amex.html",
+        "destination": "/amex",
+        "type": 301
+      },
+      {
+        "source": "/blockchain-wallet.html",
+        "destination": "/blockchain-wallet",
+        "type": 301
+      },
+      {
+        "source": "/cashapp.html",
+        "destination": "/cashapp",
+        "type": 301
+      },
+      {
+        "source": "/cashout.html",
+        "destination": "/cashout",
+        "type": 301
+      },
+      {
+        "source": "/coinbase.html",
+        "destination": "/coinbase",
+        "type": 301
+      },
+      {
+        "source": "/cpanel-account.html",
+        "destination": "/cpanel-account",
+        "type": 301
+      },
+      {
+        "source": "/dashboard.html",
+        "destination": "/dashboard",
+        "type": 301
+      },
+      {
+        "source": "/discovery.html",
+        "destination": "/discovery",
+        "type": 301
+      },
+      {
+        "source": "/giftcards.html",
+        "destination": "/giftcards",
+        "type": 301
+      },
+      {
+        "source": "/home.html",
+        "destination": "/home",
+        "type": 301
+      },
+      {
+        "source": "/idaho-fullz.html",
+        "destination": "/idaho-fullz",
+        "type": 301
+      },
+      {
+        "source": "/idaho-pua.html",
+        "destination": "/idaho-pua",
+        "type": 301
+      },
+      {
+        "source": "/illinois-pua.html",
+        "destination": "/illinois-pua",
+        "type": 301
+      },
+      {
+        "source": "/index-2.html",
+        "destination": "/index-2",
+        "type": 301
+      },
+      {
+        "source": "/master.html",
+        "destination": "/master",
+        "type": 301
+      },
+      {
+        "source": "/moneygram.html",
+        "destination": "/moneygram",
+        "type": 301
+      },
+      {
+        "source": "/navyfederal.html",
+        "destination": "/navyfederal",
+        "type": 301
+      },
+      {
+        "source": "/newyork-fullz.html",
+        "destination": "/newyork-fullz",
+        "type": 301
+      },
+      {
+        "source": "/newyork-pua.html",
+        "destination": "/newyork-pua",
+        "type": 301
+      },
+      {
+        "source": "/paxfull.html",
+        "destination": "/paxfull",
+        "type": 301
+      },
+      {
+        "source": "/paypal.html",
+        "destination": "/paypal",
+        "type": 301
+      },
+      {
+        "source": "/purchased.html",
+        "destination": "/purchased",
+        "type": 301
+      },
+      {
+        "source": "/rdp.html",
+        "destination": "/rdp",
+        "type": 301
+      },
+      {
+        "source": "/register.html",
+        "destination": "/register",
+        "type": 301
+      },
+      {
+        "source": "/shopwithscrip.html",
+        "destination": "/shopwithscrip",
+        "type": 301
+      },
+      {
+        "source": "/support.html",
+        "destination": "/support",
+        "type": 301
+      },
+      {
+        "source": "/texas-fullz.html",
+        "destination": "/texas-fullz",
+        "type": 301
+      },
+      {
+        "source": "/texas-pua.html",
+        "destination": "/texas-pua",
+        "type": 301
+      },
+      {
+        "source": "/visa.html",
+        "destination": "/visa",
+        "type": 301
+      },
+      {
+        "source": "/westernunion.html",
+        "destination": "/westernunion",
+        "type": 301
+      },
+      {
+        "source": "/zelle-transfer.html",
+        "destination": "/zelle-transfer",
+        "type": 301
+      }
     ]
   }
 }
