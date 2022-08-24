@@ -12,6 +12,10 @@
         "destination": "/index.html"
       },
       {
+        "source": "/index-3",
+        "destination": "/index-3.html"
+      },
+      {
         "source": "/amex",
         "destination": "/amex.html"
       },
@@ -140,6 +144,11 @@
       {
         "source": "/index.html",
         "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/index-3.html",
+        "destination": "/index-3",
         "type": 301
       },
       {
