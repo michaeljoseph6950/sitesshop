@@ -15,9 +15,27 @@
     
       <form>
         <h1 id="litheader" style="color: rgb(74, 34, 255);">Siteshops Login</h1>
-        <h1>Welcome to Siteshops</h1>
+        <div class="inset">
+          <p>
+            <input type="text"  id="email" placeholder="Email address">
+          </p>
+          <p>
+            <input type="password"  id="pass" placeholder="Password">
+          </p>
+          <div style="text-align: center;">
+            <div class="checkboxouter">
+              <input type="checkbox" id="remember" value="Remember">
+              <label class="checkbox"></label>
+            </div>
+            <label for="remember">Remember me </label>
+          </div>
+          <input class="loginLoginValue" type="hidden"  value="login"/>
+        </div>
         <p class="p-container">
           <input type="submit"  id="login" value="Login" style="background-color: rgb(74, 34, 255);color:white">
+        </p>
+        <p class="p-container">
+            <input type="submit" value="Register" id="btn" style="background-color: rgb(74, 34, 255);color:white">
         </p>
         
       </form>
